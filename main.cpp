@@ -10,12 +10,14 @@ int main()
 	while (true){
 		cin >> current;
 		if (current > prev){
-			cout << endl;
-			break;
+		cout << current;
+			prev =current;
 		}
 		else {
-		 cout << current;
+		cout << endl;
+		break;
 		}
-		prev = current;
+
 	}
+	return 0;
 }
